@@ -1,0 +1,8 @@
+.willdo {
+  text-decoration: none;
+}
+
+.finished {
+  color: #ccc;
+  text-decoration: line-through;
+}
