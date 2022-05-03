@@ -1,4 +1,4 @@
-# REACt-TS-TODOLIST
+# REACT-TS-TODOLIST
 
 ### 功能描述
 
