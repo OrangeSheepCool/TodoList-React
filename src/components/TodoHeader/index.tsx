@@ -2,7 +2,7 @@ import { FC, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { message, Input, Button } from 'antd';
 import { setTodo } from '../../store/actions';
-import { ITodo, TODO_STATUS } from '../../store/common';
+import { ITodo, TODO_STATUS } from '../../typings';
 
 const TodoHeader: FC = () => {
   const [content, setContent] = useState<string>('')

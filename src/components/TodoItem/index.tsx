@@ -2,7 +2,7 @@ import { FC, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { Checkbox, Button, Modal } from 'antd';
 import { removeTodo, setStatus } from '../../store/actions';
-import { ITodo, TODO_STATUS } from '../../store/common';
+import { ITodo, TODO_STATUS } from '../../typings';
 import './index.css';
 
 interface ITodoItemProps {

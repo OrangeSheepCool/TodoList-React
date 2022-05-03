@@ -1,4 +1,4 @@
-import { ITodo } from "../store/common"
+import { ITodo } from "../typings"
 
 export interface IUseLocalStorage {
   getLocalList: () => ITodo[],

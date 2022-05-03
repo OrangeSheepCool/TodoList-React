@@ -2,7 +2,7 @@ import { FC, useCallback, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Modal, Checkbox, message } from 'antd';
 import { removeTodoList, setStatusList } from '../../store/actions';
-import { IState, ITodo, TODO_STATUS } from '../../store/common';
+import { IState, ITodo, TODO_STATUS } from '../../typings';
 import './index.css';
 
 const TodoFooter: FC = () => {

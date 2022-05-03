@@ -1,4 +1,4 @@
-import { ACTION_TYPE, ITodo, removeTodoAction, removeTodoListAction, setStatusAction, setStatusListAction, setTodoAction, setTodoListAction } from "./common";
+import { ACTION_TYPE, ITodo, removeTodoAction, removeTodoListAction, setStatusAction, setStatusListAction, setTodoAction, setTodoListAction } from "../typings";
 
 export const setTodo = (payload: ITodo): setTodoAction => ({
   type: ACTION_TYPE.SET_TODO,

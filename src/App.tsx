@@ -5,7 +5,7 @@ import TodoBody from './components/TodoBody';
 import TodoFooter from './components/TodoFooter';
 import { IUseLocalStorage, useLocalStorage } from './hooks';
 import { setTodoList } from './store/actions';
-import { ITodo } from './store/common';
+import { ITodo } from './typings';
 import './App.css';
 
 const App: FC = () => {

@@ -1,6 +1,6 @@
 import { FC, ReactElement } from 'react';
 import { useSelector } from 'react-redux';
-import { IState, ITodo } from '../../store/common';
+import { IState, ITodo } from '../../typings';
 import TodoItem from '../TodoItem';
 import './index.css';
 

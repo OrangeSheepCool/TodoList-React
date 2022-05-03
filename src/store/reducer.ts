@@ -1,5 +1,5 @@
 import { message } from 'antd';
-import { Action, ACTION_TYPE, IState, ITodo, TODO_STATUS } from "./common";
+import { Action, ACTION_TYPE, IState, ITodo, TODO_STATUS } from "../typings";
 
 const initialState: IState = {
   todoList: []

@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { IUseLocalStorage, useLocalStorage } from '../hooks';
-import { IState } from './common';
+import { IState } from '../typings';
 import reducer from './reducer'
 
 const store = createStore(reducer, composeWithDevTools())
